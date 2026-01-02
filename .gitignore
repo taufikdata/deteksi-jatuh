@@ -1,0 +1,19 @@
+# Abaikan folder virtual environment
+venv/
+.env
+
+# Abaikan file python cache
+__pycache__/
+*.pyc
+
+# Abaikan Dataset Video (Berat!)
+dataset/
+*.mp4
+*.avi
+
+# Abaikan hasil output visual
+hasil_visual_uji/
+bukti_jatuh/
+
+# Abaikan file sistem
+.DS_Store
