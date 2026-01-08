@@ -1,19 +1,32 @@
 # Abaikan folder virtual environment
 venv/
+env/
 .env
 
-# Abaikan file python cache
+# Abaikan cache python
 __pycache__/
 *.pyc
 
-# Abaikan Dataset Video (Berat!)
-dataset/
+# Abaikan semua folder hasil bukti visual yang lama
+hasil_uji_visual*/
+bukti_jatuh*/
+
+# Abaikan semua file laporan CSV lama (Kecuali kamu mau simpan 1 buat contoh)
+Laporan_*.csv
+Hasil_*.csv
+
+# Abaikan video test satuan (kecuali yang di folder dataset)
 *.mp4
-*.avi
+!dataset/*.mp4
+!dataset/falls/*.mp4
+!dataset/adl/*.mp4
 
-# Abaikan hasil output visual
-hasil_visual_uji/
-bukti_jatuh/
+# Abaikan file kodingan lama (V1 - V33)
+deteksi_jatuh_v*.py
+code_V33.py
+uji_*.py
 
-# Abaikan file sistem
-.DS_Store
+# Abaikan file gambar hasil generate grafik
+Laporan_Skripsi_*/
+*.png
+*.jpg
